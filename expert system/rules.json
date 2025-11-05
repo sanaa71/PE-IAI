@@ -1,0 +1,25 @@
+{
+  "rules": [
+    {
+      "if": ["fever", "cough", "tiredness"],
+      "then": "You may have the Flu.",
+      "treatment": "Get rest, drink fluids, and consider consulting a doctor if fever persists."
+    },
+    {
+      "if": ["headache", "sore throat", "runny nose"],
+      "then": "You may have a Common Cold.",
+      "treatment": "Drink warm fluids, rest, and take paracetamol if needed."
+    },
+    {
+      "if": ["fever", "rash"],
+      "then": "You may have Chickenpox.",
+      "treatment": "Avoid scratching, use calamine lotion, and consult a doctor."
+    },
+    {
+      "if": ["fever", "joint pain", "rash"],
+      "then": "You may have Dengue Fever.",
+      "treatment": "Drink plenty of fluids and visit a healthcare provider immediately."
+    }
+  ]
+}
+
